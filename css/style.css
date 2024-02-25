@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 900 !important;
+    font-size: 5rem !important;
+    font-family: Impact;
+}
+button{
+    width: 250px;
+    height: 90px;
+    transition: all 0.5s ease;
+}
+p,button{
+    font-family: "Source Serif 4", serif !important;
+}
+body{
+    background-image:url(../imgs/home.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+body::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
