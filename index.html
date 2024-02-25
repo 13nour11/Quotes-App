@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap css style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+</head>
+<body class="position-relative z-1 vh-100">
+    <div class="container text-center content d-flex flex-column justify-content-center align-items-center pt-5 text-uppercase">
+        <h1 class="my-4 text-white-50" >Quote of the Day</h1>
+        <p class="fs-2 mb-4 text-white-50">Press the button below to recieve a random quote!</p>
+        <button class="text-white my-4 btn btn-outline-dark fs-5">New Quote</button>
+        <div class="output bg-dark bg-opacity-25 rounded shadow p-1">
+            <p id="output-paragrapgh" class="fs-2 mb-4 text-white"></p>
+            <p id="author-name" class="fs-2 mb-0 text-white"></p>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
